@@ -25,15 +25,15 @@
 <body>
 	<jsp:include page = "menuTop.jsp"></jsp:include>
 	<header>
-		<h1>관리자 페이지</h1>
-		<h3>예약 관리</h3>
+		<h1>마이 페이지</h1>
+		<h3>예약 내역</h3>
 	</header>
 	<div class = "contentboxLeft">
 		<nav class = "sidemenu">
 			<ul>
-				<li><a href="#">회원목록</a></li>
-				<li><a href="ReservationAdmin.do">예약관리</a></li>
-				<li><a href="#">스터디룸 관리</a></li>
+				<li><a href="MyReservation.do">예약 내역</a></li>
+				<li><a href="#">내 문의 내역</a></li>
+				<li><a href="MemberEditLogin.do">회원 정보 수정</a></li>
 			</ul>
 		</nav>
 	</div>

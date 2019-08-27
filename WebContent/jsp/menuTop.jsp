@@ -10,8 +10,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
     $(function(){
-    	$(".submenu").hide();
-    	
         $("nav > ul > li").mouseenter(function(){
             $(this).children(".submenu").stop().slideDown(300);
         });
