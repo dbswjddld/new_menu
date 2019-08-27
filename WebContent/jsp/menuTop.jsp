@@ -40,7 +40,7 @@
             <li><a href="#">이용안내</a></li>
                     
             <!-- [190822 윤정] 관리자만 관리자메뉴 볼 수 있게-->
-            <c:if test = "${mgrant == 'A'}">
+            <%-- <c:if test = "${mgrant == 'A'}"> --%>
             <li><a href="#">관리자메뉴</a>
                	<ul class = "submenu">
                		<li><a href = "#">회원 목록</a></li>
@@ -48,7 +48,7 @@
                 	<li><a href = "#">스터디룸 관리</a></li>
               	</ul>
             </li>
-        	</c:if>
+        	<%-- </c:if> --%>
         </ul>
         <ul class = "right">
             <c:if test = "${empty mid }"> 

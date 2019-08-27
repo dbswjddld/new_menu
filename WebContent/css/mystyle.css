@@ -16,7 +16,7 @@ li {
 }
 body {
 	width :1200px;
-	font-size :20px;
+	font-size :18px;
 	margin :0 auto;
 }
 div .contentbox{
@@ -47,7 +47,7 @@ nav>ul>li>a {
 	display :inline-block;
 	padding :5px 0px;
 	width :100%;
-	font-size : 22px;
+	font-size : 18px;
 }
 nav>ul>li:hover>a {
 	color :#629DD1;
@@ -61,7 +61,7 @@ nav>ul>li:hover>a {
 .submenu>li>a {
 	display :inline-block;
 	width :150px;
-	font-size :20px;
+	font-size :18px;
 }
 .submenu>li>a:hover {
 	color :#629DD1;
